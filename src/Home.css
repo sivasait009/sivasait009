@@ -1,0 +1,59 @@
+.container {
+    padding: 20px;
+  }
+  
+  /* Header styling (no animation here) */
+  .header {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Main content layout */
+  .main-content {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px;
+  }
+  
+  /* Info boxes with animation */
+  .info-box {
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: boxFadeIn 1s ease-in-out;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for additional interaction */
+  .info-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Box fade-in animation */
+  @keyframes boxFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Style for the specific text sections */
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Media queries to ensure responsiveness */
+  @media (max-width: 768px) {
+    .main-content {
+      grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+  }
+  
+  

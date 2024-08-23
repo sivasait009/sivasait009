@@ -1,0 +1,137 @@
+/* .about-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    color: #e7eb09;
+  }
+/*   
+  .about-hero {
+    text-align: center;
+    background: url(C:\Users\SivaSaiTattukolla\Desktop\skc\public\IMG_3639.jpg) center center/cover no-repeat;
+    padding: 100px 20px;
+    color: #fff;
+  } */
+  
+  /* .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .company-story, .team-section, .values-section, .testimonials-section, .cta-section {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .team-profiles, .values-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .profile-card, .value-card {
+    background: #8a8a8a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 30%;
+  }
+  
+  .profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card:hover, .value-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .testimonials-section .testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+   */ 
+
+   .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    background-image: url("C:\Users\SivaSaiTattukolla\Desktop\skc\public\saf.jpg" ); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-card {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* background-image: url("C:\Users\SivaSaiTattukolla\Desktop\skc\public\saf.jpg"); */
+     /* Transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .about-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  

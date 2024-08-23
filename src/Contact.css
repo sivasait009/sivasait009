@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-color: #ff7b00; */
+    background-image: url("C:\Users\SivaSaiTattukolla\Desktop\skc\public\saf.jpg");
+   background-size: cover;
+  }
+ 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+ 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 5px;
+  }
+ 
+  .header h1 {
+    margin: 0;
+    color: #333;
+  }
+ 
+  .back-button {
+    padding: 10px 20px;
+    background-color: #f0e68c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+ 
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+ 
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 50%;
+  }
+ 
+  .info-box {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+ 
+  .info-box h3 {
+    margin: 0;
+    font-weight: bold;
+  }
+ 
+  .contact-form {
+    width: 145%;
+    background-color: #0ccfe9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+ 
+  .contact-form h2 {
+    margin-top: 0;
+  }
+ 
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #854242;
+  }
+ 
+  .contact-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+ 
+  .contact-form button:hover {
+    background-color: #555;
+  }
